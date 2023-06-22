@@ -1,0 +1,13 @@
+#hero {
+    background-color: #ffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+
+@media (max-width: 767px) {
+    #hero {
+        background-image: none;
+        background-color: #ffff;
+    }
+}
